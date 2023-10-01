@@ -1,0 +1,69 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input": ["hello", "hi", "hey"],
+    "bot_response": "Hey there!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["goodbye", "bye"],
+    "bot_response": "See you later!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["nice", "to", "meet", "you"],
+    "bot_response": "The pleasure is all mine!",
+    "required_words": ["nice", "meet", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "to", "learn", "code", "coding", "apps"],
+    "bot_response": "Start by typing: 'How to learn coding' on Google.",
+    "required_words": ["learn", "code"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["who","What","are","do"],
+    "bot_response": "I'm a friendly bot here to chat with you",
+    "required_words": ["you","are"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "are", "you"],
+    "bot_response": "I'm great! Thanks for asking.",
+    "required_words": ["how", "are", "you"]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["morning", "good morning"],
+    "bot_response": "Good morning!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["afternoon", "good afternoon"],
+    "bot_response": "Good afternoon!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["night", "good night"],
+    "bot_response": "Good night!",
+    "required_words": []
+  },
+  {
+    "response_type": "question",
+    "user_input": ["tell me a joke", "joke", "funny"],
+    "bot_response": "Why did the computer catch a cold? Because it had too many windows open!",
+    "required_words": ["joke"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how's the weather today", "weather"],
+    "bot_response": "I'm not sure about the weather, but I'm here to brighten your day!",
+    "required_words": ["weather"]
+  }
+]
+
